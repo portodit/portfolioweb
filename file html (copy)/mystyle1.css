@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+    h1 {
+        color: rgb(189, 189, 102);
+        text-align: left;
+    }
+
+    p {
+        font-family: verdana;
+        font-size: 20px;
+    }
+    h6 {
+        color: rgb(2, 2, 90)
+    }
+    img {
+        border-radius: 15px;
+    }
+    a {
+        color: black;
+        background-color: rgb(200, 200, 199);
+        text-decoration: none.;
+    }
+    .bordergambar {
+        border: 2px solid red;
+        border-radius: 5px;
+    }

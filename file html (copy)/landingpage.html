@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Profile Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- tinyslider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="67">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+        <div class="container">
+            <a class="navbar-brand me-5">
+                    <img src="images/logo-light.png" class="logo-light" alt="" height="22" />
+                    <img src="images/logo-dark.png" class="logo-dark" alt="" height="22" />
+                </a>
+            <a href="javascript:void(0)" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggle-icon"><i data-feather="menu"></i></span>
+                </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-center me-auto mt-lg-0 mt-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biodata">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kegiatan">Kegiatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nilai">Daftar Nilai</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyek">File HTML</a>
+                    </li>
+                </ul>
+                <div class="mb-4 mb-lg-0">
+                    <a href="#" class="btn btn-sm nav-btn btn-warning mb-4 mb-lg-0 ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start hero -->
+    <section class="hero-1 bg-white position-relative d-flex align-items-center justify-content-center overflow-hidden" style="background-image: url(images/hero-1-bg.png);" id="home">
+        <div class="container">
+            <div class="row align-items-center text-center text-lg-start">
+                <div class="col-lg-6 mt-4 pt-2">
+                    <h6 class="text-warning mb-3">Perkenalkan nama saya,</h6>
+                    <h1 class="ml11 mb-2">
+                        <span class="text-wrapper">
+                              <span class="line line1"></span>
+                        <span class="letters pb-0">Adhitya Pratama  .</span>
+                        </span>
+                    </h1>
+                    <h5 class="my-4">Mahasiswa Sistem Informasi ITS</h5>
+
+                    <p class="text-justify text-muted mb-2">Terima kasih telah mengunjungi halaman website ini!! Kenali saya lebih mendalam dengan membaca seluruh isi halaman ini, atau Anda dapat mengunduh curriculum vitae saya pada tombol di bawah ini:</p>
+                    <a href="#" class="btn btn-warning">Download CV <i data-feather="arrow-right" class="icon-xs icon"></i> </a>
+                </div>
+                <div class="col-lg-6 mt-lg-4 pt-2 mt-4">
+                    <img class="hero-img" src="images/intro.jpg"
+                    width="90%"
+                    height="100%" alt="">
+                </div>
+
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end hero -->
+
+    <!-- start solution -->
+    <section class="section" id="biodata">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-container" src="images/saya.png" alt="">
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 pt-lg-0 pt-4">
+                    <h2 class="fw-semibold lh-base mb-2"><dt>Biodata Diri</dt></h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="p-4 border rounded">
+                                <!-- <h6 class="text-center fw-normal"><dt>Biodata Diri</dt></h6> -->
+                                <h6 class="fw-semibold fs-6">
+                                    <table class="table table-borderless">
+                                        <thead>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td><strong>Nama lengkap</strong></td>
+                                            <td>: I Putu Adhitya Pratama M.P</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>Jenis kelamin</strong></td>
+                                            <td>: Laki-laki</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>Tempat, Tanggal Lahir</strong></td>
+                                            <td>: Singaraja, 16 Februari 2003</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>Status</strong></td>
+                                            <td>: Mahasiswa Aktif</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>Jurusan</strong></td>
+                                            <td>: Sistem Informasi</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>NRP</strong></td>
+                                            <td>: 5026211037</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </h6>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="kegiatan">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 mb-4">
+                    <h2 class="fw-semibold lh-base mb-2"><dt>Kegiatan Saya</dt></h2>
+                    <h5 class="text-dark fw-normal">Berikut beberapa kegiatan yang saya jalani selama satu bulan terakhir ini</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="service rounded px-4 py-md-5 py-3 active">
+                        <div class="img">
+                            <img class="just"src="images/PSB2022.jpg" width="300px" class="img-fluid" alt="">
+                          </div>
+                        <h4 class="text-center" class="fw-semibold fs-2 my-4"><dt>PSB HINDU 2022</dt></h4>
+                        <p class="text-center mb-4">
+                            Pada kegiatan Pelatihan Spiritual & Kebangsaan untuk Mahasiswa Hindu ITS, PENS, dan PPNS 2022 ini saya turut berpartisipasi dalam kepanitiaan kegiatan ini. Pada kegiatan ini saya masuk pada divisi Hubungan Masyarakat (Humas) yang bertugas sebagai narahubung pemateri, dosen, dan peserta.
+                        </p>
+                        <div class="ser-link justify-content-center text-center"><a href="#" class="fs-15 text-dark fw-medium">Lihat Sertifikat<i data-feather="arrow-right" class="icon-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="service rounded px-4 py-md-5 py-3 active">
+                        <div class="img">
+                            <img src="images/StandES.jpg" width="300px" class="img-fluid" alt="">
+                          </div>
+                        <h4 class="text-center" class="fw-semibold fs-2 my-4"><dt>STAND ES HMSI</dt></h4>
+                        <p class="text-center mb-4">
+                            Pada pelaksanaan acara Wisuda 126 Sistem Informasi 2022 kemarin, Departemen Enterpreneurship membuka stand penjualan merchandise dan buket pocky di mana saya turut berpartisipasi sebagai staff magang. <br> <br> <br> </p>
+                        <div class="ser-link justify-content-center text-center"><a href="#" class="fs-15 text-dark fw-medium">Lihat Sertifikat<i data-feather="arrow-right" class="icon-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 pt-2">
+                    <div class="service rounded px-4 py-md-5 py-3 active">
+                        <br>
+                        <div class="img">
+                            <img src="images/syukuranwisuda.jpg" class="img-fluid" alt="">
+                          </div>
+                        <h4 class="text-center" class="fw-semibold fs-2 my-4"><dt>SYUKURAN WISUDA 126</dt></h4>
+                        <p class="text-center mb-4">
+                            Pada Syukuran Wisuda 126 Mahasiswa Hindu ini saya berpartisipasi dalam kepanitaannya dengan mengambil posisi sebagai koordinator kestari. Tugas yang saya emban adalah mengawasi para staff kestari dalam mengerjakan jobdesk dan berkoordinasi dengan koordinator bidang lain.
+                        </p>
+                        <div class="ser-link justify-content-center text-center"><a href="#" class="fs-15 text-dark fw-medium">Lihat Sertifikat<i data-feather="arrow-right" class="icon-xs"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section" id="nilai">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="fw-semibold lh-base mb-2"><dt>Daftar Nilai Kuliah</dt></h2>
+                    <h5 class="text-dark fw-normal">Berikut ini daftar nilai kuliah saya untuk semester 1 dan 2</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6 col-md-6 mt-4 pt-2">
+                    <div class="bg-white border px-4 py-5 text-center rounded">
+                        <h4 class="text-uppercase position-relative"><strong>Daftar Nilai Kuliah Semester 1</strong></h4>
+                        <div class="img">
+                            <img src="images/nilai1.png" class="img-fluid" alt="">
+                        </div>
+                        <br>
+                        <br>
+                        <h6> Gambar di atas adalah screenshot dari daftar Nilai kuliah saya untuk semester 1 dengan perolehan IPS sebesar 3,61. Pada semester 1 ini saya mengambil 7 mata kuliah dengan pembagian 5 mata kuliah wajib UPMB dan 2 mata kuliah jurusan Sistem Informasi.</h6>
+                        <a href="#" class="btn btn-primary mt-4">Kontak Saya<i data-feather="arrow-right" class="icon icon-xs"></i></a>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-4 pt-2">
+                    <div class="bg-white border px-4 py-5 text-center rounded">
+                        <h4 class="text-uppercase position-relative"><strong>Daftar Nilai Kuliah Semester 2</strong></h4>
+                        <div class="img">
+                            <img src="images/nilai2.png" class="img-fluid" alt="">
+                        </div>
+                        <br>
+                        <h6> Gambar di atas adalah screenshot dari daftar Nilai kuliah saya untuk semester 2 dengan perolehan IPS sebesar 3,59. Pada semester 1 ini saya mengambil 7 mata kuliah dengan pembagian 5 mata kuliah wajib UPMB dan 3 mata kuliah jurusan Sistem Informasi.</h6>
+                        <a href="#" class="btn btn-primary mt-4">Kontak Saya<i data-feather="arrow-right" class="icon icon-xs"></i></a>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="proyek">
+        <div class="container">
+        <div class="col-12 text-center mb-5">
+                <h2 class="fw-semibold lh-base mb-2"><dt>Penugasan PWEB</dt></h2>
+                <h5 class="text-dark fw-normal">Berikut ini daftar file html dari pertemuan 1 hingga ke 7</h5>
+        </div>
+            <div class="row">
+                <div class="row">
+                    <div class="border bg-light rounded col-md-3 col-6 my-4 pt-3">
+                        <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 1</dt></h5>
+                        <div class="img">
+                            <img src="images/sapuangin.png" width="300px" class="img-fluid" alt="">
+                          </div>
+                          <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                          <ul>
+                            <li><a href="file html (copy)/sapuangin.html" target="_blank"><p class="text-dark fw-normal">Sapuangin.html</p></a></li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="border bg-light rounded col-md-3 col-6 my-4 pt-3">
+                        <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 2</dt></h5>
+                        <div class="img">
+                            <img src="images/berita.png" width="300px" class="img-fluid" alt="">
+                        </div>
+                        <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                        <ul>
+                            <li><a href="file html (copy)/template.html" target="_blank"><p class="text-dark fw-normal">template.html</p></a></li>
+                            <li><a href="file html (copy)/berita.html" target="_blank"><p class="text-dark fw-normal">berita.html<p></a></li>
+                        </ul>
+                    <br>
+                    </div>
+
+                    <div class="border bg-light rounded col-md-3 col-6 my-4 pt-3">
+                                <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 3</dt></h5>
+                                <div class="img">
+                                    <img src="images/landingpage1.png" width="300px" class="img-fluid" alt="">
+                                </div>
+                                <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                                <ul>
+                                    <li><a href="file html (copy)/5026211037_landingpage.html" target="_blank"><p class="text-dark fw-normal">5026211037_Landingpage.html</p></a></li>
+                                </ul>
+                                <br>
+                    </div>
+                    <div class="border bg-light rounded col-md-3 col-6 my-4 pt-3">
+                        <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 4</dt></h5>
+                        <div class="img">
+                            <img src="images/js3.png" width="300px" class="img-fluid" alt="">
+                        </div>
+                        <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                        <ul>
+                            <li><a href="file html (copy)/js1.html" target="_blank"><p class="text-dark fw-normal">js1.html</p></a></li>
+                            <li><a href="file html (copy)/js2.html" target="_blank"><p class="text-dark fw-normal">js2.html</p></a></li>
+                            <li><a href="file html (copy)/js3 (penugasan file java).html" target="_blank"><p class="text-dark fw-normal">js3.html</p></a></li>
+                        </ul>
+                        <br>
+            </div>
+                <div class="border bg-light rounded col-md-3 col-6 my-1 pt-1">
+                    <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 5</dt></h5>
+                    <div class="img">
+                        <img src="images/regisnohp.png" width="300px" class="img-fluid" alt="">
+                    </div>
+                    <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                    <ul>
+                        <li><a href="file html (copy)/registrasinohp (Tugas 6 Oktober).html" target="_blank"><p class="text-dark fw-normal">registrasinohp.html</p></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="border bg-light rounded col-md-3 col-6 my-1 pt-1">
+                    <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 6</dt></h5>
+                    <div class="img">
+                        <img src="images/cart3.png" width="300px" class="img-fluid" alt="">
+                    </div>
+                    <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+                    <ul>
+                        <li><a href="file html (copy)/cart.html" target="_blank"><p class="text-dark fw-normal">cart.html</p></a></li>
+                        <li><a href="file html (copy)/cart2.html" target="_blank"><p class="text-dark fw-normal">cart2.html</p></a></li>
+                        <li><a href="file html (copy)/cart3 (Tugas Validasi Form).html" target="_blank"><p class="text-dark fw-normal">cart3.html</p></a></li>
+                    </ul>
+                    <br>
+        </div>
+
+        <div class="border bg-light rounded col-md-3 col-6 my-1 pt-1">
+            <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 7 (ETS) </dt></h5>
+            <div class="img">
+                <img src="images/ets.png" width="300px" class="img-fluid" alt="">
+            </div>
+            <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+            <ul>
+                <li><a href="file html (copy)/landingpage.html" target="_blank"><p class="text-dark fw-normal">landingpage.html</p></a></li>
+            </ul>
+            <br>
+        </div>
+
+        <div class="border bg-light rounded col-md-3 col-6 my-1 pt-1">
+            <h5 class="text-center text-uppercase" class="fw-semibold fs-2 my-4"><dt>Pertemuan 8</dt></h5>
+            <div class="img">
+                <img src="images/comingsoon.jpg" width="300px" class="img-fluid" alt="">
+            </div>
+            <h6 class="text-center pt-1" class="text-dark fw-semibold">Daftar File</h6>
+            <ul>
+                <li><a href="file html (copy)/landingpage.html" target="_blank"><p class="text-dark fw-normal">null.html</p></a></li>
+            </ul>
+            <br>
+        </div>
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end-container -->
+    </section>
+    <!-- end brand logo -->
+
+    <!-- start footer -->
+    <!-- end footer -->
+
+    <!-- start footer alter -->
+    <div class="footer-alt">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> &copy; PORTODIT <a href="" class="text-muted">PORTODIT</a>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end footer alter -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" name="myForm" onsubmit="return validateForm()">
+                        <span id="error-msg"></span>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="fw-medium form-label" for="name">Name</label>
+                                        <input type="text" class="form-control" placeholder="Your name" id="name" />
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-md-6 mb-3">
+                                        <label class="fw-medium form-label" for="email">Email</label>
+                                        <input type="email" class="form-control" placeholder="Your email" id="email" />
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-md-6 mb-3">
+                                        <label class="fw-medium form-label" for="subject">Subject</label>
+                                        <input type="text" class="form-control" placeholder="your subject" id="subject" />
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-md-6 mb-3">
+                                        <label class="fw-medium form-label" for="number">Contact</label>
+                                        <input type="text" class="form-control" placeholder="+00 1234 5678 90" id="number" />
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-12 mb-3">
+                                        <label class="fw-medium form-label" for="comments">Message</label>
+                                        <textarea class="form-control" id="comments" placeholder="Enter your message..." rows="5"></textarea>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-12">
+                                        <input type="submit" id="submit" name="send" class="btn btn-primary mt-2" value="Send Information" />
+                                    </div>
+                                    <!-- end col -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </form>
+                    <!-- end form -->
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- end modal -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- feather icon -->
+    <script src="js/feather.js"></script>
+
+    <!-- client-slider -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/tiny.init.js"></script>
+
+    <!-- moving letter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/text-animation.init.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
